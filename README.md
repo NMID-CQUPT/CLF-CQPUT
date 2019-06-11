@@ -55,7 +55,7 @@ Issue、PR、纠错、补充、上传攻略，完全欢迎！
 
 由贡献者编写部分的许可如下：
 
-[CC-BY-NY-SA：署名-非商业性使用-相同方式共享]: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
+[CC-BY-NY-SA：署名-非商业性使用-相同方式共享](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
 
 > 资料仅供参考，请自行判断其适用性
 >
