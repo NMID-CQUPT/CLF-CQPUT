@@ -51,6 +51,10 @@ Issue、PR、纠错、补充、上传攻略，完全欢迎！
 3. 科目文件夹存在，打开对应文件夹，点击upload，上传你的文件。
 4. 科目文件夹不存在，打开任意文件夹，点击upload，把浏览器地址中的文件夹名称改为你想要新建的文件夹名称，然后回车，上传你的文件。
 
+或者也可以直接附加在 **Issue** 中，由维护者进行添加。
+
+或者也可以发送邮件至 **peng.botao@nexuslink.cn** ，由维护者进行添加。
+
 ## 许可
 
 由贡献者编写部分的许可如下：
@@ -58,10 +62,27 @@ Issue、PR、纠错、补充、上传攻略，完全欢迎！
 [CC-BY-NY-SA：署名-非商业性使用-相同方式共享](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
 
 > 资料仅供参考，请自行判断其适用性
->
-> 资料若不合适，别喷！切记，有就不错了。
 
-其他部分的版权归属于其各自的作者
+> 其他部分的版权归属于其各自的作者
+
+> 抱歉，我们无法对项目中信息的准确性或真实性做任何承诺。
+
+**如果有侵权情况，麻烦您发送必要的信息至 peng.botao@nexuslink.cn ，带来不便还请您谅解。**
+
+## 其他高校资料库链接
+
+- [浙江大学课程攻略共享计划](https://github.com/QSCTech/zju-icicles)
+- [气垫船计划——免费、去中心化的北京大学往年题资料库](https://github.com/martinwu42/project-hover)
+- [北京大学信科学生会学术部资料库](https://github.com/EECS-PKU-XSB/Shared-learning-materials)
+- [北大计算机课程大作业](https://github.com/tongtzeho/PKUCourse)
+- [清华大学计算机系课程攻略](https://github.com/PKUanonym/REKCARC-TSC-UHT)
+- [❤️中国科学技术大学课程资源](https://github.com/USTC-Resource/USTC-Course)
+- [东南大学课程共享计划](https://github.com/zjdx1998/seucourseshare)
+- [上海交通大学课程资料分享](https://github.com/CoolPhilChen/SJTU-Courses/)
+- [中山大学课程资料分享](https://github.com/sysuexam/SYSU-Exam)
+- [南京大学课程复习资料](https://github.com/idealclover/NJU-Review-Materials)
+
+(more to be added....)
 
 ## 致谢
 
