@@ -76,7 +76,7 @@ Issue、PR、纠错、补充、上传攻略，完全欢迎！
 - [北京大学信科学生会学术部资料库](https://github.com/EECS-PKU-XSB/Shared-learning-materials)
 - [北大计算机课程大作业](https://github.com/tongtzeho/PKUCourse)
 - [清华大学计算机系课程攻略](https://github.com/PKUanonym/REKCARC-TSC-UHT)
-- [❤️中国科学技术大学课程资源](https://github.com/USTC-Resource/USTC-Course)
+- [中国科学技术大学课程资源](https://github.com/USTC-Resource/USTC-Course)
 - [东南大学课程共享计划](https://github.com/zjdx1998/seucourseshare)
 - [上海交通大学课程资料分享](https://github.com/CoolPhilChen/SJTU-Courses/)
 - [中山大学课程资料分享](https://github.com/sysuexam/SYSU-Exam)
