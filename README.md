@@ -1,5 +1,11 @@
 # 重庆邮电大学课程攻略共享计划
 
+[![](https://img.shields.io/github/watchers/ScenicPatrick/CLF-CQPUT.svg?style=flat)](https://github.com/ScenicPatrick/CLF-CQPUT/watchers)
+[![](https://img.shields.io/github/stars/ScenicPatrick/CLF-CQPUT.svg?style=flat)](https://github.com/ScenicPatrick/CLF-CQPUT/stargazers)
+[![](https://img.shields.io/github/forks/ScenicPatrick/CLF-CQPUT.svg?style=flat)](https://github.com/ScenicPatrick/CLF-CQPUT/network/members)
+[![](https://img.shields.io/github/issues-pr-closed-raw/ScenicPatrick/CLF-CQPUT.svg?style=flat)](https://github.com/ScenicPatrick/CLF-CQPUT/issues)
+![](https://img.shields.io/github/repo-size/ScenicPatrick/CLF-CQPUT.svg?style=flat)
+
 ## 前言
 
 学校内网的资源共享站的资源上传权限，常年掌握在少数人的手里。
