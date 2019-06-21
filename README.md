@@ -1,3 +1,4 @@
+![avatar](http://www.cqupt.edu.cn/cqupt/img/logo.png)
 # 重庆邮电大学课程攻略共享计划
 
 [![](https://img.shields.io/github/watchers/ScenicPatrick/CLF-CQPUT.svg?style=flat)](https://github.com/ScenicPatrick/CLF-CQPUT/watchers)
