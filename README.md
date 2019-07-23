@@ -1,5 +1,5 @@
 ![avatar](http://www.cqupt.edu.cn/cqupt/img/logo.png)
-# 💡课程攻略共享计划
+# 💡 课程攻略共享计划
 
 [![](https://img.shields.io/github/watchers/ScenicPatrick/CLF-CQPUT.svg?style=flat)](https://github.com/ScenicPatrick/CLF-CQPUT/watchers)
 [![](https://img.shields.io/github/stars/ScenicPatrick/CLF-CQPUT.svg?style=flat)](https://github.com/ScenicPatrick/CLF-CQPUT/stargazers)
@@ -7,7 +7,7 @@
 [![](https://img.shields.io/github/issues-pr-closed-raw/ScenicPatrick/CLF-CQPUT.svg?style=flat)](https://github.com/ScenicPatrick/CLF-CQPUT/issues)
 ![](https://img.shields.io/github/repo-size/ScenicPatrick/CLF-CQPUT.svg?style=flat)
 
-## ⚡前言
+## ⚡ 前言
 
 学校内网的资源共享站的资源上传权限，常年掌握在少数人的手里。
 
@@ -21,7 +21,7 @@
 
 学习这些资料，阅读学长学姐留下的复习攻略，可能会减轻信息不对称对你造成的影响，让你在复习时更有针对性。
 
-## ⚡特性
+## ⚡ 特性
 
 本项目迄今为止收录了以下内容：
 
@@ -33,7 +33,7 @@
 
 等等，目前项目所涵盖的科目还很少。
 
-## ⚡平台
+## ⚡ 平台
 
 以下摘录自浙江大学课程攻略共享计划
 
@@ -43,7 +43,7 @@
 > - GitHub 项目可以使用目录进行文件组织，并且每个目录均可以在显示文件列表的同时显示一个 README，十分适合本项目的需求。
 > - GitHub 带有便捷的 Issue 和 Pull Request 协作功能，并且可以方便地对贡献的质量进行监督和调整。
 
-## ⚡贡献
+## ⚡ 贡献
 
 知识创造来源于知识传承，鄙人希望优秀而努力的你也能为这个项目做贡献，为后来的学弟学妹们搭桥铺路。
 
@@ -62,7 +62,7 @@ Issue、PR、纠错、补充、上传攻略，完全欢迎！
 
 或者也可以发送邮件至 **peng.botao@nexuslink.cn** ，由维护者进行添加。
 
-## 📄许可
+## 📄 许可
 
 由贡献者编写部分的许可如下：
 
@@ -76,7 +76,7 @@ Issue、PR、纠错、补充、上传攻略，完全欢迎！
 
 **如果有侵权情况，麻烦您发送必要的信息至 peng.botao@nexuslink.cn ，带来不便还请您谅解。**
 
-## 👍其他高校资料库链接
+## 👍 其他高校资料库链接
 
 - [浙江大学课程攻略共享计划](https://github.com/QSCTech/zju-icicles)
 - [气垫船计划——免费、去中心化的北京大学往年题资料库](https://github.com/martinwu42/project-hover)
@@ -91,7 +91,7 @@ Issue、PR、纠错、补充、上传攻略，完全欢迎！
 
 (more to be added....)
 
-## 🙏致谢
+## 🙏 致谢
 
 浙江大学课程攻略共享计划
 
