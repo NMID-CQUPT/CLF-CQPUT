@@ -1,0 +1,93 @@
+题目①汉诺塔问题
+
+一、源程序调试过程
+（该项是成绩评定的主要评分依据之一，越详细越好。调试过程中发生的语法错误与逻辑错误，以及如何改正等，都要写出来）
+1、首先设计汉诺塔的具体算法，由分析明显知该算法可以用递归的思想，于是这样分析，得出算法思想：
+①把A上的n-1个盘子移到B
+②把A上最后一个盘子移到C
+③把B当作A，重复①②过程
+2、在设计的过程中，因为输出里面需要有[STEP  i]，i是步骤数，所以需要一个计数器来计算递归函数调用次数，一开始我用了count
+来计数，但在初始化的时候，每次递归都会重新初始化，最后用了一个全局变量，在函数外初始化，函数内每次调用对计数器count+1
+3、在字符串[STEP i] A->C的初始化过程中，因为函数的A,B,C都是str类型，所以无法用format()函数进行传参，因此把[STEP i]和
+A->C用逗号分开，先对i进行传参，后面的字符串用 <A , '->', B>来打印
+4、3步骤中对i传参的过程中，当i>=10以后，就会变成[STEP   10]，而正确的输出是[STEP  10]，中间多了个空格，因此在format的
+{ }中用{： >4.0f}进行空格的设置，同时达到右对齐的效果
+5、<A , '->', B>打印的过程中，系统会自动加上空格即输出效果为 <A -> B>，而题目要求为<A->B>,因此只好一个一个输出，用
+end=' '的方式消除空格
+
+二、实验实习结果分析
+（要求测试用例尽量全面，覆盖程序运行时的每个分支）
+1、函数部分：
+①基例：
+ if n == 1:
+        count += 1
+        print('[STEP{: >4.0f}]'.format(count), A, end='')
+        print('->', end='')
+        print(C)
+        return
+②递归部分：
+else:
+        Hanoi(n-1, A, C, B)
+        count += 1
+        print('[STEP{: >4.0f}]'.format(count), A, end='')
+        print('->', end='')
+        print(C)
+        Hanoi(n-1, B, A, C)
+2、主体部分：
+count = 0
+m = eval(input())
+Hanoi(m, 'A', 'B', 'C')
+
+三、心得体会
+（通过该实验，你学到了什么？）
+format（）初始化过程时，不能初始化字符串的变量，即 A=‘ABCDEF’，不能将A作为参数传入
+递归可以画出相应的数据结构，可以更好的考虑全局函数计数问题
+
+
+
+题目②分治法找假币
+
+一、源程序调试过程
+（该项是成绩评定的主要评分依据之一，越详细越好。调试过程中发生的语法错误与逻辑错误，以及如何改正等，都要写出来）
+1、一开始采用直接在findFalseCoin内部直接写加和部分，但是由于函数内需要多次使用，造成代码冗杂，且多个重复部分容易出错，于是
+在函数外写一个加和函数sum(),因为加和函数本该是主函数调用的参数，于是需要调用与主函数一样的形参
+2、在奇偶函数判断过程中，不需要单独在函数体内部再用n==2或者n==3，容易出错，直接在函数体开头写一个if n==1作为基例，在其他
+分支内就直接递归
+
+二、实验实习结果分析
+（要求测试用例尽量全面，覆盖程序运行时的每个分支）
+1、Sum部分：
+def Sum(coins, start, n):
+    sum = 0
+    k = 0
+    for i in coins[start:]:
+        k += 1
+        if n >= k:
+            sum += i
+    return sum
+2、主体部分：
+①基例：
+if n == 1:
+        print('Fake coin:{}'.format(int(start)))
+        return
+②偶数部分：
+elif n % 2 == 0:
+        if Sum(coins, int(start), int(n/2)) < Sum(coins, int(start+n/2), int(n/2)):
+            return findFalseCoin(coins, int(start), int(n/2))
+        elif Sum(coins, int(start), int(n/2)) > Sum(coins, int(start+n/2), int(n/2)):
+            return findFalseCoin(coins, start+n/2, n/2)
+        else:
+            print('Fake coin is not found')
+            return
+③奇数部分：
+elif n % 2 != 0:
+        if Sum(coins, int(start), int(n//2)) < Sum(coins, int(start+n//2), int(n//2)):
+            return findFalseCoin(coins, int(start), int(n//2))
+        elif Sum(coins, int(start), int(n//2)) > Sum(coins, int(start+n//2), int(n//2)):
+            return findFalseCoin(coins, int(start+n//2), int(n//2))
+        else:
+            print('Fake coin:{}'.format(start+n-1))
+            return
+三、心得体会
+（通过该实验，你学到了什么？）
+即使是写一个函数，也可以把其中重复内容再封装成另一个函数
